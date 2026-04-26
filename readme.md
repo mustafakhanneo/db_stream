@@ -1,4 +1,3 @@
-````markdown
 # DBMS Streamlit App
 
 ## Setup Instructions
@@ -8,6 +7,8 @@ Follow these steps to set up and run the project locally.
 ### 1. Create `.env` File
 
 In the root directory of the project, create a `.env` file and add the following environment variables:
+
+````markdown
 
 ```env
 DB_USER=avnadmin

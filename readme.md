@@ -37,6 +37,3 @@ streamlit run app.py
 
 * Ensure the `ca.pem` file is present in the project directory for SSL connection.
 * It is recommended to use a virtual environment for dependency management.
-
-```
-```

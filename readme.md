@@ -8,9 +8,7 @@ Follow these steps to set up and run the project locally.
 
 In the root directory of the project, create a `.env` file and add the following environment variables:
 
-````markdown
-
-```env
+````
 DB_USER=avnadmin
 DB_PASSWORD=AVPS_JL7VtHx7i3Ued87Ko6X
 DB_HOST=mysql-3795b69f-mustafa.c.aivencloud.com

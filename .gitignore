@@ -1,5 +1,9 @@
+# Environment variables
 .env
+
+# SSL certificate
 ca.pem
+
+# Python cache
 __pycache__/
 *.pyc
-__pycache__

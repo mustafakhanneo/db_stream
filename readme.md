@@ -1,4 +1,4 @@
-#### DBMS Streamlit App
+## DBMS Streamlit App
 
 ## Setup Instructions
 

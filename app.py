@@ -6,6 +6,7 @@ Main entry point for the data management system.
 import streamlit as st
 import pandas as pd
 from datetime import datetime, date
+from sqlalchemy import func
 from io import BytesIO
 
 st.set_page_config(
@@ -72,7 +73,7 @@ if page == "🏠 Dashboard":
         total_records = db.query(Record).count()
         active_records = db.query(Record).filter(Record.status == "active").count()
         pending_records = db.query(Record).filter(Record.status == "pending").count()
-        cat_data = db.query(Record.category, db.func.count(Record.id)).group_by(Record.category).all()
+        cat_data = db.query(Record.category, func.count(Record.id)).group_by(Record.category).all()
 
         c1, c2, c3, c4 = st.columns(4)
         with c1:

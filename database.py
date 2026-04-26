@@ -22,7 +22,7 @@ DB_CONFIG = {
     "password": os.getenv("DB_PASSWORD", "your_database_password"),      # from Aiven console
     "host": os.getenv("DB_HOST", "localhost"),              # e.g., mysql-myproject.aivencloud.com
     "port": int(os.getenv("DB_PORT", 24963)),                          # Aiven default port (not 3306)
-    "database": os.getenv("DB_NAME", "your_database_name"),       # your database name
+    "database": os.getenv("DB_NAME", "defaultdb"),       # your database name
     "ssl_ca": os.getenv("DB_SSL_CA", "ca.pem")                      # Download from Aiven console → Overview → CA Certificate
 }
 

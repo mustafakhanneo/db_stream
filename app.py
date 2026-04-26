@@ -10,7 +10,7 @@ from sqlalchemy import func
 from io import BytesIO
 
 st.set_page_config(
-    page_title="Data Management System",
+    page_title="Data Stream Manager",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
